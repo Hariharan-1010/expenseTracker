@@ -14,7 +14,6 @@ export default function ExpenseRow(props) {
     }
     return (
         <tr className='expense-table-row'>
-            <td className={`expense-table-sno ${props.sno}`}>{props.sno}</td>
             <td className={`expense-table-title ${props.sno}`}>{props.title}</td>
             <td className={`expense-table-cat ${props.sno}`}>{props.cat}</td>
             <td className={`expense-table-amt ${props.sno}`}>{props.amt}</td>

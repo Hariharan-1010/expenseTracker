@@ -19,7 +19,6 @@ export default function ExpenseTable(props) {
     return (
         <table className='expense-table'>
           <tr className='expense-table-row'>
-            <th className='expense-table-sno'></th>
             <th className='expense-table-title'>Title</th>
             <th className='expense-table-cat'>Category</th>
             <th className='expense-table-amt'>Amount</th>

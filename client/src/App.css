@@ -75,9 +75,10 @@ input {
   font-size: 1.3rem; 
 }
 .other-fns button {
-  width: 150px;
+  width: 180px;
   height: 40px;
   background-color: #EEEEEE;
+  font-size: large;
 }
 .category-chooser select, .month-chooser select{
   font-size: 1.5rem;
